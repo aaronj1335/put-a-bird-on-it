@@ -1,0 +1,20 @@
+{
+  "author": "nature and stuff",
+  "name": "put-a-bird-on-it",
+  "description": "we put birds on things.",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.11"
+  },
+  "dependencies": {
+    "csi": "0.0.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "component": {
+    "name": "bird"
+  }
+}
