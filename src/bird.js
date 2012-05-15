@@ -1,9 +1,8 @@
 define([
-    'path!bird:css!bird.css'
-], function() {
+    'component!vendor:jquery',
+    'css!./bird.css'
+], function($) {
     return function(node) {
-        var el = document.createElement('div');
-        el.className = 'with-a-bird-on-it';
-        node.appendChild(el);
+        $('<div class=with-a-bird-on-it></div>').appendTo(node);
     };
 });
