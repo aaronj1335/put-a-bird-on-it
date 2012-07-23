@@ -10,7 +10,7 @@
     "node": "~0.6.11"
   },
   "dependencies": {
-    "jquery": "1.7.x",
+    "jquery": "git://github.com/aaronj1335/node-jquery.git",
     "csi": "0.0.x"
   },
   "devDependencies": {},
