@@ -10,12 +10,15 @@
     "node": "~0.6.11"
   },
   "dependencies": {
-    "jquery": "git://github.com/aaronj1335/jquery.git",
+    "jquery": "1.7.x",
     "csi": "0.0.x"
   },
   "devDependencies": {},
   "optionalDependencies": {},
-  "component": {
+  "scripts": {
+    "install": "cp node_modules/jquery/lib/node-jquery.js node_modules/jquery/src/jquery.js"
+  },
+  "csi": {
     "name": "bird"
   }
 }
