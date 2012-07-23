@@ -15,9 +15,6 @@
   },
   "devDependencies": {},
   "optionalDependencies": {},
-  "scripts": {
-    "install": "cp node_modules/jquery/lib/node-jquery.js node_modules/jquery/src/jquery.js"
-  },
   "csi": {
     "name": "bird"
   }
