@@ -1,6 +1,6 @@
 define([
-    'component!vendor:jquery',
-    './bird'
+    'jquery/jquery',
+    'bird/bird'
 ], function($, birdifyIt) {
 
     test('put an effin bird on it', function() {

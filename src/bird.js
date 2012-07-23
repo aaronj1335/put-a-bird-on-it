@@ -1,8 +1,9 @@
 define([
-    'component!vendor:jquery',
+    'jquery/jquery',
     'css!./bird.css'
 ], function($) {
-    return function(node) {
-        $('<div class=with-a-bird-on-it></div>').appendTo(node);
+    return function(el) {
+        $('<div').addClass('with-a-bird-on-it').appendTo(el);
+        return el;
     };
 });
